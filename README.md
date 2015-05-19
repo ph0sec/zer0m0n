@@ -144,7 +144,9 @@ COMPILATION
 ===========
 
 Compile the driver sources with the Windows Driver Kit (WDK).
-For the application, we use Visual C++ 2008 Express Edition, but you should be able to use other ones :]. Don't forget to include WDK librairies to be able to use the Filter Communication Port features.
+For the application, we use Visual C++ 2008 Express Edition, but you should be able to use other ones :]. Don't forget to include WDK librairies to be able to use the Filter Communication Port features. 
+
+To be able to compile the VS 2010 projects, add environment variable `$WDKPATH` to point to the WKD installation direcotry (for example C:\WinDDK\7600.16385.1).
 
 FAQ
 ===
